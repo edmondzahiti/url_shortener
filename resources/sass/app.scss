@@ -1,0 +1,120 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Styles */
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: #1a202c; /* Darker background */
+    color: #e2e8f0; /* Light text color */
+}
+
+.flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.min-h-screen {
+    min-height: 100vh;
+}
+
+.bg-gray-900 {
+    background-color: #1a202c;
+}
+
+.bg-white {
+    background-color: #ffffff;
+}
+
+.p-8 {
+    padding: 2rem;
+}
+
+.rounded-lg {
+    border-radius: 0.75rem;
+}
+
+.shadow-lg {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.w-full {
+    width: 100%;
+}
+
+.max-w-md {
+    max-width: 28rem;
+}
+
+.mb-4 {
+    margin-bottom: 1rem;
+}
+
+.p-3 {
+    padding: 0.75rem;
+}
+
+.border {
+    border: 1px solid #e2e8f0;
+}
+
+.border-gray-300 {
+    border-color: #d2d6dc;
+}
+
+.bg-blue-600 {
+    background-color: #3182ce;
+}
+
+.hover\:bg-blue-700:hover {
+    background-color: #2b6cb0;
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+.text-black {
+    color: #000000;
+}
+
+.text-blue-500 {
+    color: #4299e1;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.rounded {
+    border-radius: 0.25rem;
+}
+
+.transition {
+    transition: background-color 0.3s ease;
+}
+
+.text-red-500 {
+    color: #f56565;
+}
+
+.text-green-500 {
+    color: #48bb78;
+}
