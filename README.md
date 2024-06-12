@@ -14,10 +14,12 @@ Execute commands as below:
 composer install
 npm install
 php artisan key:generate
-php artisan migrate --seed
+php artisan migrate
 npm run dev
 php artisan serve
 ```
+
+Now go to the project url: ```http://localhost:8000/```
 
 #### Unit Test
 
